@@ -83,7 +83,9 @@
     <Content Include="components\templates\components\index.html" />
     <Content Include="libman.json" />
     <Content Include="pages\templates\pages\base_layout.html" />
-    <Content Include="pages\templates\pages\index.html" />
+    <Content Include="pages\templates\pages\customize.html" />
+    <Content Include="pages\templates\pages\home.html" />
+    <Content Include="pages\templates\pages\shop.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
@@ -108,12 +110,12 @@
     <Content Include="app\static\app\scripts\respond.js" />
     <Content Include="app\static\app\scripts\respond.min.js" />
     <Content Include="app\static\app\scripts\_references.js" />
-    <Content Include="app\templates\app\about.html" />
-    <Content Include="app\templates\app\contact.html" />
+    <Content Include="pages\templates\pages\about.html" />
+    <Content Include="pages\templates\pages\contact.html" />
     <Content Include="app\templates\app\index.html" />
     <Content Include="app\templates\app\layout.html" />
-    <Content Include="app\templates\app\login.html" />
-    <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="pages\templates\pages\login.html" />
+    <Content Include="pages\templates\pages\loginpartial.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">

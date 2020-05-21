@@ -1,4 +1,5 @@
 /* NUGET: BEGIN LICENSE TEXT
+/* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
  * purpose of either: (i) interacting through your browser with the Microsoft
@@ -2395,25 +2396,9 @@ input[type="button"].btn-block {
 }
 
 @font-face {
-    font-family: 'FinkHeavy';
-    src: url('../fonts/FinkHeavy.ttf');
-}
-
-@font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-}
-
-.fink-heavy {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: FinkHeavy;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
 }
 
 .glyphicon {
