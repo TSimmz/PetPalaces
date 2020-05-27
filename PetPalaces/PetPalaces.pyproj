@@ -77,6 +77,8 @@
     <Folder Include="images\" />
     <Folder Include="pages\" />
     <Folder Include="pages\migrations\" />
+    <Folder Include="pages\static\" />
+    <Folder Include="pages\static\content\" />
     <Folder Include="pages\templates\" />
     <Folder Include="pages\templates\pages\" />
     <Folder Include="PetPalaces\" />
@@ -88,6 +90,7 @@
     <Content Include="images\PetPalaceLogo" />
     <Content Include="images\PetPalaceLogoPng.png" />
     <Content Include="libman.json" />
+    <Content Include="pages\static\content\main.css" />
     <Content Include="pages\templates\pages\base_layout.html" />
     <Content Include="pages\templates\pages\customize.html" />
     <Content Include="pages\templates\pages\home.html" />
