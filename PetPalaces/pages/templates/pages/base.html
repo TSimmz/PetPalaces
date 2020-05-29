@@ -9,34 +9,36 @@
     <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
 </head>
 <body>
-    <header>
-        <div class="page-brand">
-            <div class="page-icon"></div>
-            <div class="page-logo">Pet Palaces</div>
-        </div>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'shop' %}">Shop</a></li>
-                <li><a href="{% url 'contact' %}">Contact</a></li>
-                <li><a href="{% url 'about' %}">About</a></li>
-            </ul>   
-        </nav>
-        <div class="user-info">
-            <div id="user-avatar"></div>
-            <div id="user-name">Hi, Username!</div>
-            <div class="login-signup">Log In / Sign Up</div>
-        </div>
-    </header>
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-    <footer>
-        <p>&copy; {{ year }} - Pet Palaces</p>
-    </footer>
-
+    <div class="page-structure">
+        <header>
+            <div class="page-brand">
+                <div class="page-icon"></div>
+                <div class="page-logo">Pet Palaces</div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'shop' %}">Shop</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                </ul>   
+            </nav>
+            <div class="user-info">
+                <div id="user-avatar"></div>
+                <div id="user-name">Hi, Username!</div>
+                <div class="login-signup">Log In / Sign Up</div>
+            </div>
+        </header>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            <p>&copy; {{ year }} - Pet Palaces</p>
+        </footer>
+    </div>
     <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
     <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
     <script src="{% static 'app/scripts/respond.js' %}"></script>
+
 </body>
 </html>
