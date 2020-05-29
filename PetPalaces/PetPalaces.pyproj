@@ -80,6 +80,7 @@
     <Folder Include="pages\static\" />
     <Folder Include="pages\static\pages\content\" />
     <Folder Include="pages\static\pages\" />
+    <Folder Include="pages\static\pages\images\" />
     <Folder Include="pages\templates\" />
     <Folder Include="pages\templates\pages\" />
     <Folder Include="PetPalaces\" />
@@ -87,6 +88,7 @@
   <ItemGroup>
     <Content Include="app\static\app\fonts\FinkHeavy.ttf" />
     <Content Include="components\templates\components\index.html" />
+    <Content Include="pages\static\pages\images\LandingPage.svg" />
     <Content Include="images\PetPalaceIcon" />
     <Content Include="images\PetPalaceLogo" />
     <Content Include="images\PetPalaceLogoPng.png" />

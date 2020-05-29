@@ -20,9 +20,10 @@ def shop_view(request, *args, **kwargs):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'pages/shop.html',
+        'pages/about.html',
         {
             'title':'Shop',
+            'message':'Your application shop page.',
             'year':datetime.now().year,
         }
     )
