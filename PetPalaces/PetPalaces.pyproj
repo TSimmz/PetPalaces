@@ -87,15 +87,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\fonts\FinkHeavy.ttf" />
+    <None Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <SubType>Content</SubType>
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
     <Content Include="components\templates\components\index.html" />
+    <Compile Include="pages\static\pages\content\style.scss" />
+    <Content Include="pages\static\pages\content\style.css" />
+    <Content Include="pages\static\pages\content\style.min.css" />
+    <Content Include="pages\static\pages\content\_colors.scss" />
+    <Content Include="pages\static\pages\content\_fonts.scss" />
+    <Content Include="pages\static\pages\content\_global.scss" />
     <Content Include="pages\static\pages\images\LandingPage.svg" />
     <Content Include="images\PetPalaceIcon" />
     <Content Include="images\PetPalaceLogo" />
     <Content Include="images\PetPalaceLogoPng.png" />
     <Content Include="libman.json" />
-    <Content Include="pages\static\pages\content\footer.css" />
-    <Content Include="pages\static\pages\content\header.css" />
-    <Content Include="pages\static\pages\content\main.css" />
     <Content Include="pages\templates\pages\base.html" />
     <Content Include="pages\templates\pages\base_layout.html" />
     <Content Include="pages\templates\pages\customize.html" />
