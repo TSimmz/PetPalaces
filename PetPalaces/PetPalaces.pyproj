@@ -93,11 +93,11 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
     <Content Include="components\templates\components\index.html" />
-    <Compile Include="pages\static\pages\content\style.scss" />
-    <Content Include="pages\static\pages\content\style.css" />
-    <Content Include="pages\static\pages\content\style.min.css" />
+    <Content Include="pages\static\pages\content\_classes.scss" />
     <Content Include="pages\static\pages\content\_colors.scss" />
     <Content Include="pages\static\pages\content\_fonts.scss" />
+    <Content Include="pages\static\pages\content\_global.css" />
+    <Content Include="pages\static\pages\content\_global.min.css" />
     <Content Include="pages\static\pages\content\_global.scss" />
     <Content Include="pages\static\pages\images\LandingPage.svg" />
     <Content Include="images\PetPalaceIcon" />

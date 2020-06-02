@@ -1,0 +1,45 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.page-brand {
+  display: flex; }
+
+body {
+  margin: 0px;
+  background-color: #e3ddcc;
+  font-family: "Chelsea Market", cursive; }
+
+header {
+  color: #ffffff;
+  background-image: linear-gradient(to right, #ffe259, #ffa751);
+  border: solid;
+  border-color: red;
+  padding: 4px;
+  display: flex;
+  grid-template-columns: 25% 50% 25%; }
+  header nav {
+    text-align: center;
+    width: 100%; }
+    header nav ul {
+      list-style-type: none;
+      font-size: 24px;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      header nav ul li {
+        height: 50%;
+        width: 25%;
+        float: left;
+        border: solid;
+        border-color: green; }
+        header nav ul li a {
+          border-radius: 10px; }
+        header nav ul li a:hover {
+          background-color: #e1d6b6; }
+
+a {
+  color: #ffffff;
+  text-decoration: none; }
+
+footer {
+  border: solid;
+  border-color: red; }

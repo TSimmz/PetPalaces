@@ -2,5 +2,13 @@
   {
     "outputFile": "pages/static/pages/content/style.css",
     "inputFile": "pages/static/pages/content/style.scss"
+  },
+  {
+    "outputFile": "pages/static/pages/content/_global.css",
+    "inputFile": "pages/static/pages/content/style.scss"
+  },
+  {
+    "outputFile": "pages/static/pages/content/_global.css",
+    "inputFile": "pages/static/pages/content/_global.scss"
   }
 ]
